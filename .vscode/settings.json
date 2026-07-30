@@ -3,6 +3,7 @@
     "APPWRITE",
     "deleteposts",
     "Logouthandler",
+    "matchpatern",
     "Patern",
     "servive",
     "VITE"

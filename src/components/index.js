@@ -5,7 +5,7 @@ import Logo from "./Logo";
 import Container from "./container/Container";
 import Button from "./Button";
 import Input from "./Input";
-import RTE from "./RTE";
+import RichTextEditor from "./RichTextEditor";
 import Select from "./Select";
 import Signup from "./Signup";
 import Login from "./Login";
@@ -21,7 +21,7 @@ export{
     Container,
     Button,
     Input,
-    RTE,
+    RichTextEditor,
     Select,
     Signup,
     Login,

@@ -9,7 +9,7 @@ import {useForm} from "react-hook-form"
 function Login() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
-    const [register, handleSubmit] = useForm()
+    const {register, handleSubmit} = useForm()
     const [error, setError] = useState("")
     const inputRef = useRef(null)
 
@@ -72,7 +72,7 @@ function Login() {
                     />
                     <Button
                     type='submit'
-                    className='w-full'
+                    className='w-full cursor-pointer'
                     >
                         Sign In
                     </Button>

@@ -10,7 +10,7 @@ function SignUp() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const [error,setError] = useState("")
-    const [register, handleSubmit] = useForm()
+    const {register, handleSubmit} = useForm()
     const inputRef = useRef()
 
     const signup = async(data) =>{
@@ -78,7 +78,7 @@ function SignUp() {
                     {...register("password", {
                         required: true,})}
                     />
-                    <Button type="submit" className="w-full">
+                    <Button type="submit" className="w-full cursor-pointer">
                         Create Account
                     </Button>
                 </div>

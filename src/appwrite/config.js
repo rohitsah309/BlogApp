@@ -76,7 +76,7 @@ export class Services {
     }
     async getPosts(queries = [Query.equal("status", "active")]) {
         try {
-            return await this.databases.listDocument(
+            return await this.databases.listDocuments(
                 conf.appwriteDataBaseId,
                 conf.appwriteTableId,
                 queries
@@ -107,11 +107,10 @@ export class Services {
             console.log("Appwrite servive :: deleteposts :: error", error)
         }
     }
-    getFilePreview(fileId) {
-        return this.bucket.getFilePreview(
-            conf.appwriteBucketId,
-            fileId
-        );
+    getFileView(fileId) {
+        return this.bucket
+            .getFileView(conf.appwriteBucketId,fileId)
+            .href;
     }
 }
 const services = new Services();

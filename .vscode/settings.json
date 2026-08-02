@@ -1,12 +1,25 @@
 {
   "cSpell.words": [
+    "advlist",
+    "aligncenter",
+    "alignjustify",
+    "alignleft",
+    "alignright",
     "APPWRITE",
     "Authanticate",
+    "bullist",
+    "charmap",
     "deleteposts",
+    "forecolor",
+    "insertdatetime",
     "Logouthandler",
     "matchpatern",
+    "numlist",
     "Patern",
+    "removeformat",
     "servive",
-    "VITE"
+    "visualblocks",
+    "VITE",
+    "wordcount"
   ]
 }
